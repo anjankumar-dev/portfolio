@@ -1,0 +1,7 @@
+<i class="fab fa-java"></i><p>Java</p>
+<i class="fas fa-leaf"></i><p>Spring Boot</p>
+<i class="fas fa-database"></i><p>MySQL</p>
+<i class="fab fa-html5"></i><p>HTML/CSS</p>
+<i class="fab fa-js"></i><p>JavaScript</p>
+<i class="fab fa-github"></i><p>Git/GitHub</p>
+<i class="fas fa-paper-plane"></i><p>Postman</p>
