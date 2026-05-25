@@ -405,11 +405,27 @@ nav.scrolled {
 .code-float--1 { top: 22%; right: 10%; animation: float1 8s ease-in-out infinite; }
 .code-float--2 { top: 55%; right: 6%; animation: float1 10s ease-in-out infinite 2s; }
 .code-float--3 { bottom: 20%; right: 18%; animation: float1 7s ease-in-out infinite 1s; }
+.code-float--4 { font-size: 20px; top: 40%; right: 30%; animation: float2 10s ease-in-out infinite; }
+.code-float--5 { font-size: 40px; top: 65%; right: 30%; animation: float3 10s linear infinite; }
 
 @keyframes float1 {
   0%, 100% { transform: translateY(0); opacity: 0.18; }
   50% { transform: translateY(-12px); opacity: 0.35; }
 }
+
+@keyframes float2 {
+  0%,100%{ transform: translate(0); opacity: 0.5; }
+  25%{ transform: translate(-50px,-50px); opacity: 0.25; }
+  50%{ transform: translate(0px,-100px); opacity: 0.5; }
+  75%{ transform: translate(50px,-50px); opacity: 0.25; }
+}
+
+@keyframes float3 {
+  0%,100%{ transform: translate(-50px,0); opacity: 0.5;}
+  33.3%{ transform: translate(0, -50px);}
+  66.6%{ transform: translate(50px,0);}
+}
+
 
 /* ===========================
    BUTTONS
